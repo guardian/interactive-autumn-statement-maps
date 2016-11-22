@@ -43,5 +43,7 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "mapbox-gl": "^0.28.0"
+  }
 }

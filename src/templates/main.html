@@ -1,1 +1,7 @@
-<div>Hello world!</div>
+{{#content}}
+	<div class='interactive-row {{type}}'>
+		
+			{{> (lookup . 'block') }}
+
+	</div>
+{{/content}}

@@ -5,3 +5,40 @@
 .interactive-atom {
     margin: 0 !important;
 }
+
+.interactive-row {
+	@include mq(desktop) {
+		p, h2, iframe {
+			margin-left: 10rem;
+			max-width: 620px
+		}
+	}
+
+	@include mq(wide) {
+		p, h2, iframe {
+			margin-left: 15rem;
+			max-width: 620px
+		}
+	}
+
+	.map {
+		width:calc(100% + 40px);
+		margin-left: -20px;
+	}
+
+	.number {
+		@include fs-headline(6);
+		font-weight: 200;
+		color: #951c55;
+		@include mq(desktop) {
+			@include fs-headline(9);
+			font-weight: 200;
+		}
+
+	}
+
+	h2 {
+		@include fs-headline(4);
+	}
+	
+}
